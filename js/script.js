@@ -22,4 +22,4 @@ if (età < 18) {
 // 5) Prezzo finale in due decimali
 var costofinale = prezzo - sconto;
 costofinale = costofinale.toFixed(2);
-document.getElementById("costofinale").innerHTML = costofinale;
+document.getElementById("costofinale").innerHTML += costofinale;
